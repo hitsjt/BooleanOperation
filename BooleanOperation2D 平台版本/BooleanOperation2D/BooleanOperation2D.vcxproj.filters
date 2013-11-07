@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{457fb6c1-06a5-4357-ac1d-123882144fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MFC\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{db7148c1-6e90-4c8d-a7ac-db3875ab7aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{b7c512b4-9a08-4161-ac8b-dfce4d01016b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\源文件">
+      <UniqueIdentifier>{5086ec95-e59a-42e1-97ad-fa667b45b1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\头文件">
+      <UniqueIdentifier>{77fb9d63-f4f6-4498-8dc3-ea2d8e610d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\头文件">
+      <UniqueIdentifier>{aec23ed9-f1d4-49a3-b4d8-6c044f7b5fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\源文件">
+      <UniqueIdentifier>{ab28feb4-d678-4a9e-9360-1b2c51a454eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BooleanOperation2D.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanOperation2DDoc.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanOperation2DView.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>MFC\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersection.h">
+      <Filter>Algorithms\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulation.h">
+      <Filter>Algorithms\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanOperation.h">
+      <Filter>Algorithms\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtility.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CF_Draw.h">
+      <Filter>Math\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BooleanOperation2D.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanOperation2DDoc.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanOperation2DView.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Math\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Math\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Math\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>MFC\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection.cpp">
+      <Filter>Algorithms\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulation.cpp">
+      <Filter>Algorithms\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BooleanOperation.cpp">
+      <Filter>Algorithms\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CF_Draw.cpp">
+      <Filter>Math\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BooleanOperation2D.reg" />
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BooleanOperation2D.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BooleanOperation2D.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BooleanOperation2DDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BooleanOperation2D.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\my.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

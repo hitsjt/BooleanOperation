@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BooleanOperation2D", "BooleanOperation2D\BooleanOperation2D.vcxproj", "{E3C0CF54-8043-4D69-88F5-ACE93F801A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3C0CF54-8043-4D69-88F5-ACE93F801A9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3C0CF54-8043-4D69-88F5-ACE93F801A9F}.Debug|Win32.Build.0 = Debug|Win32
+		{E3C0CF54-8043-4D69-88F5-ACE93F801A9F}.Release|Win32.ActiveCfg = Release|Win32
+		{E3C0CF54-8043-4D69-88F5-ACE93F801A9F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
